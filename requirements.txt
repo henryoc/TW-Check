@@ -1,0 +1,4 @@
+selenium==3.141.0
+lxml==4.5.1
+telethon==1.14.0
+cryptg==0.2.post1
