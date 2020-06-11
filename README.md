@@ -9,7 +9,7 @@
 
 
 
-<tt>Config Vars :</tt>
+<abbr>Config Vars :</abbr>
 
 
 
