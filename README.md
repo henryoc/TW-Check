@@ -7,9 +7,9 @@
 </a>
 
 
-Config Vars :
+<big>Config Vars :</big>
 
-<code>Config vars change the way your app behaves. In addition to creating your own, some add-ons come with their own :</code>
+<ins>Config vars change the way your app behaves. In addition to creating your own, some add-ons come with their own :</ins>
 
 Get this <b>api_id</b> & <b>api_hash</b> from <a href="https://my.telegram.org"> my telegram</a>
 Get this <b>bot_token</b> from <a href="https://t.me/botfather"> @botfather</a> 
