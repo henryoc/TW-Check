@@ -7,7 +7,11 @@
 </a>
 
 
-<big>Config Vars :</big>
+
+
+<strong>Config Vars :</strong>
+
+
 
 <ins>Config vars change the way your app behaves. In addition to creating your own, some add-ons come with their own :</ins>
 
