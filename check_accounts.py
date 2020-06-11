@@ -20,11 +20,11 @@ from telethon.tl.types import DocumentAttributeVideo
 
 logging.basicConfig(level=logging.WARNING)
 
-api_id = 17349
-api_hash = "344583e45741c457fe1862106095a5eb"
+api_id = environ["api_id"]
+api_hash = environ["api_hash"]
 
 client = TelegramClient("tweet_the_check", api_id, api_hash)
-client.start(bot_token='994840333:AAEoatedmYnpjTibUz-U-yrBcPodk33i8p0')
+client.start(bot_token=environ["bot_token"])
 
 
 class Timer():
