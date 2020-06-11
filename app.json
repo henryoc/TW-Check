@@ -1,19 +1,25 @@
 {
-
-  "env": {
-    "APP_ID": {
-      "description": "Get this value from https://my.telegram.org"
+    "env": {
+        "api_id": {
+            "description": "Get this value from https://my.telegram.org"
+        },
+        "api_hash": {
+            "description": "Get this value from https://my.telegram.org"
+        },
+        "bot_token": {
+            "description": "Get this Token from https://t.me/botfather"
+        },
+        "CHROMEDRIVER_PATH": {
+            "value": "chromedriver"
+        },
+        "GOOGLE_CHROME_BIN": {
+            "value": "/app/.apt/usr/bin/google_chrome"
+        }
     },
-    "APP_HASH": {
-      "description": "Get this value from https://my.telegram.org"
-    }
-  },
-  "addons": [
-
-  ],
-  "buildpacks": [
-    {
-      "url": "https://github.com/stomita/heroku-buildpack-phantomjs"
-    }
-  ]
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "https://github.com/stomita/heroku-buildpack-phantomjs"
+        }
+    ]
 }
