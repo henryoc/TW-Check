@@ -23,6 +23,7 @@ logging.basicConfig(level=logging.WARNING)
 api_id = environ["api_id"]
 api_hash = environ["api_hash"]
 
+
 client = TelegramClient("tweet_the_check", api_id, api_hash)
 client.start(bot_token=environ["bot_token"])
 
